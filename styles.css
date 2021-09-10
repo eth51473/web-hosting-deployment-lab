@@ -1,3 +1,26 @@
-h1 {
-  color: red;
+*{
+  margin: 0px;
+  padding: 0px;
+}
+/* .topbar {
+  background-color: burlywood;
+  height: 10vh;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+} */
+main{
+  height: 100vh;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.1)) , url('https://cdn.pixabay.com/photo/2014/05/21/15/18/musician-349790_1280.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 0px;
+  display: flex;
+  justify-content: center;
+  color: rgb(255, 255, 255);
+}
+h1{
+  font-size: 3rem;
+  text-shadow: black 5px 5px 5px 5px;
+  height: auto;
 }
