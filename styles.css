@@ -14,13 +14,50 @@ main{
   background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.1)) , url('https://cdn.pixabay.com/photo/2014/05/21/15/18/musician-349790_1280.jpg');
   background-size: cover;
   background-repeat: no-repeat;
-  background-position: 0px;
   display: flex;
-  justify-content: center;
   color: rgb(255, 255, 255);
+  flex-direction: column;
+  align-items: center;
+  
 }
 h1{
   font-size: 3rem;
   text-shadow: black 5px 5px 5px 5px;
   height: auto;
+  text-decoration: underline 1px;
+}
+.sales-content{
+  height: 70vh;
+  width: 30vw;
+  background-color: rgba(14, 14, 14, 0.377);
+  border-radius: 10px;
+  position:relative;
+  left: 300px;
+  top: 50px;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+
+.container{
+  position: relative;
+}
+.hat-img{
+  width: 25vw;
+  height: 40vh;
+  background-image: url(https://cdn.pixabay.com/photo/2016/01/08/22/01/cowboy-1129345_1280.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 4px;
+  margin-top: 15px;
+  margin-bottom: 10px;
+}
+a{
+  text-decoration: none;
+  background-color: white;
+  padding: 10px;
+  font-size: 30px;
+  margin-top: 10px;
 }
